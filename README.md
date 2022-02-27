@@ -15,7 +15,7 @@ A single page product preview build with React.
 
 ## Links
 
-- Live Site URL: [click-me](https://620a3359ac52ba1e7c57e74e--quirky-minsky-58d005.netlify.app/)
+- Live Site URL: [click-me](https://jovial-bassi-ddb0b4.netlify.app/)
 
 ## Screenshot
 - Desktop
