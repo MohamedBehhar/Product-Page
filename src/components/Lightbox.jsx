@@ -26,7 +26,7 @@ const Lightbox = () => {
 		console.log(el);
 		if (el === 'product-preview' || el === 'lb-close')
 			SetIsLightboxOpen(false);
-	})
+	}, [SetIsLightboxOpen]);
 	useEffect ( () =>{
 		document.addEventListener('click', handleClosing );
 	}, [handleClosing]);
