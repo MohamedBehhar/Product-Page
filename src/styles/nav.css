@@ -149,6 +149,8 @@ nav {
 	.side-links li{
 		margin-bottom: 2rem;
 		font-weight: 700;
+		cursor: pointer;
 	}
+
 
 }
