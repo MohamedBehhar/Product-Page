@@ -150,6 +150,10 @@ nav {
 		margin-bottom: 2rem;
 		font-weight: 700;
 		cursor: pointer;
+		transition: color ease-in-out 300ms;
+	}
+	.side-links li:hover{
+		color: orange;
 	}
 
 
