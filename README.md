@@ -11,7 +11,7 @@
 
 
 ## Overview
-A single page product preview build with React.
+E-commerce product page challenge hub build using React.
 
 ## Links
 
