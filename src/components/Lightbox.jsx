@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react'
+import React,{useState, useEffect, useCallback} from 'react'
 import { useGlobalContext } from '../Context'
 import images from "../images";
 import {GrFormNext} from 'react-icons/gr'
@@ -21,16 +21,16 @@ const Lightbox = () => {
 			if (i <= 1 ? SetIndex(images.product.length) : SetIndex(i - 1));
 	}
 
-	useEffect ( () =>{
-		document.addEventListener('click', handleClosing )
-	}, []);
-
-	const handleClosing = (e) => {
+	const handleClosing =useCallback((e) => {
 		let el = e.target.classList.value;
 		console.log(el);
 		if (el === 'product-preview' || el === 'lb-close')
 			SetIsLightboxOpen(false);
-	}
+	})
+	useEffect ( () =>{
+		document.addEventListener('click', handleClosing );
+	}, [handleClosing]);
+
 
 
 	return (
