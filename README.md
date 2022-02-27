@@ -1,4 +1,4 @@
-# Tip Calculator Build With React
+# E-commerce product page
 
 ## Table of contents
 
