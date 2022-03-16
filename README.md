@@ -15,7 +15,7 @@ E-commerce product page challenge hub build using React.
 
 ## Links
 
-- Live Site URL: [click-me](https://jovial-bassi-ddb0b4.netlify.app/)
+- Live Site URL: [click-me](https://ecomerce-product-page.netlify.app/)
 
 ## Screenshot
 - Desktop
